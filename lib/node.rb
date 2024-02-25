@@ -1,6 +1,7 @@
 # node.rb
 #   by dev chrysalis!
 # helper class for linked_list and derivatives
+# wanted to keep the node outside main file for readibility
 
 class Node
   attr_accessor :next

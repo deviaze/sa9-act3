@@ -1,9 +1,13 @@
 # linked_list.rb
 #   by dev chrysalis!
+# The COMP 2150 assignment was to modify Top's LinkedList implementation
+# I have rewritten the whole LinkedList from scratch
+# but it's not a 1:1 port of the old assignment's LinkedList, it's just making a new LinkedList
+# and this one has tail for O(1) append operation
 
 require_relative 'node'
 
-# Doubly linked list implementation.
+# linked list implementation (with tail).
 class LinkedList
   attr_reader :length
 
